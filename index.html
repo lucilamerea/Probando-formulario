@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <form action="" class="contenedor">
+        <h1>Formulario reserva de vacante</h1>
+
+        
+        <label for="datos" class="titulo">Nombre y apellido</label>
+        <br>
+        <input type="text" id="nombre" name="nombreCompleto" placeholder="Escriba nombre completo" class="completar">
+        <br>
+        <br>
+
+        <label for="email" class="titulo">Escriba su e-mail</label>
+        <br>
+        <input type="email" placeholder="unemail@ejemplo.com" class="completar">
+        <br>
+        <br>
+
+     <label for="turno" class="titulo">Elija que turno quiere: </label>
+     <br>
+     <br>
+        <label for="turnoM" class="LabelTurno">Turno mañana</label>
+        <input type="radio" id="turnoM" name="turno" value="mañana">
+​
+        <label for="turnoT" class="LabelTurno">Turno tarde</label>
+        <input type="radio" id="turnoT" name="turno" value="tarde">
+​
+        <label for="turnoN" class="LabelTurno">Turno noche</label>
+        <input type="radio" id="turnoN" name="turno" value="noche">
+        <br>
+        <br>
+​
+        <label for="diplomatura" class="titulo">Indique a que cursos se anota</label>
+        <br>
+        <label for="PWI">Prog.Web.Inicial</label>
+        <input type="checkbox" id="PWI" name="cursos" value="Prog.Web.Inicial">
+​        <label for="PWA">Prog.Web.Avanzado</label>
+        <input type="checkbox" id="PWA" name="cursos" value="Prog.Web.Avanzado">
+        <br>
+        <br>
+​
+        <label for="nivel" class="titulo">Elija el nivel de conocimiento</label>
+        <br>
+        <br>
+        <select name="nivel" id="nivel" class="inicialrecuadro">
+            <option value="inicial" class="inicial">inicial</option>
+            <option value="intermedio">intermedio</option>
+            <br>
+            <br>
+            
+
+                
+          
+        </select>
+        <br>
+        
+
+        <div class="boton">
+        <input  class="enviar"  type="submit" value="Enviar">
+    </div>
+
+        
+​
+    </form>
+
+
+
+    
+</body>
+</html>
